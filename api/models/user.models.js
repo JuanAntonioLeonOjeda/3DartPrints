@@ -61,7 +61,7 @@ const User = sequelize.define(
             }*/
         }, 
     },
-    { updatedAt: false }
+    { timestamps: false }
 
 )
     
